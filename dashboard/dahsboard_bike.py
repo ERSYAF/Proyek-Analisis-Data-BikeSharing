@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Memuat Dataset
-bike_sharing_df = pd.read_csv("dataclean_bikesharing.csv")
+bike_sharing_df = pd.read_csv("dashboard/dataclean_bikesharing.csv")
 
 # Pastikan kolom 'date' dalam format datetime
 bike_sharing_df['date'] = pd.to_datetime(bike_sharing_df['date'])
