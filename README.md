@@ -7,9 +7,19 @@ Proyek ini bertujuan untuk melakukan analisis dan visualisasi data dari **Bike S
 Dataset yang digunakan adalah **Bike Sharing Dataset**, yang berisi data tentang jumlah peminjaman sepeda, kondisi cuaca, serta faktor waktu (hari, bulan, musim, dll.).
 
 ## **Direktori Proyek**  
-submission ├── dashboard/ # Berisi file dashboard untuk visualisasi data │ ├── main_data.csv # Dataset yang digunakan dalam dashboard │ └── dashboard.py # File Python untuk menjalankan dashboard ├── data/ # Berisi dataset utama untuk analisis │ ├── data_1.csv
-│ └── data_2.csv
-├── notebook.ipynb # Notebook Jupyter untuk eksplorasi dan analisis data ├── README.md # Dokumentasi proyek ├── requirements.txt # Daftar library yang digunakan dalam proyek └── url.txt # Berisi link atau referensi terkait proyek
+Struktur folder dalam proyek ini adalah sebagai berikut:
+
+- **`submission/`**  
+  - **`dashboard/`** → Berisi file dashboard untuk visualisasi data  
+    - `main_data.csv` → Dataset yang digunakan dalam dashboard  
+    - `dashboard.py` → File Python untuk menjalankan dashboard  
+  - **`data/`** → Berisi dataset utama untuk analisis  
+    - `data_1.csv`  
+    - `data_2.csv`  
+  - `notebook.ipynb` → Notebook Jupyter untuk eksplorasi dan analisis data  
+  - `README.md` → Dokumentasi proyek  
+  - `requirements.txt` → Daftar library yang digunakan dalam proyek  
+  - `url.txt` → Berisi link atau referensi terkait proyek  
 
 ## **Cara Menjalankan Proyek**  
 1. **Clone repository**  
