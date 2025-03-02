@@ -11,12 +11,12 @@ Struktur folder dalam proyek ini adalah sebagai berikut:
 
 - **`submission/`**  
   - **`dashboard/`** → Berisi file dashboard untuk visualisasi data  
-    - `main_data.csv` → Dataset yang digunakan dalam dashboard  
-    - `dashboard.py` → File Python untuk menjalankan dashboard  
+    - `dataclean_bikesharing` → Dataset yang digunakan dalam dashboard  
+    - `dahsboard_bike.py` → File Python untuk menjalankan dashboard  
   - **`data/`** → Berisi dataset utama untuk analisis  
-    - `data_1.csv`  
-    - `data_2.csv`  
-  - `notebook.ipynb` → Notebook Jupyter untuk eksplorasi dan analisis data  
+    - `day.csv`  
+    - `hour.csv`  
+  - `Proyek Analisis Data (bike-sharing-dataset).ipynb` → Notebook Jupyter untuk eksplorasi dan analisis data  
   - `README.md` → Dokumentasi proyek  
   - `requirements.txt` → Daftar library yang digunakan dalam proyek  
   - `url.txt` → Berisi link atau referensi terkait proyek  
@@ -34,5 +34,5 @@ Struktur folder dalam proyek ini adalah sebagai berikut:
 3. **Menjalankan dashboard Streamlit**
    ```sh
    cd dashboard
-   streamlit run dashboard.py
+   streamlit run dahsboard_bike.py
 
